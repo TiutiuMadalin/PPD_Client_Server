@@ -1,0 +1,20 @@
+spring:
+  jpa:
+    database:
+      POSTGRESQL
+    hibernate:
+      ddl-auto:
+        create-drop
+#    show-sql:
+#      true
+    generate-ddl:
+      true
+  datasource:
+    platform:
+      postgres
+    url:
+      jdbc:postgresql://localhost:5433/PPD_Client_Server
+    username:
+      postgres
+    password:
+      postgres

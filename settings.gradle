@@ -1,0 +1,5 @@
+rootProject.name = 'PPDClientServer'
+include 'Server'
+include 'Client'
+include 'Common'
+
